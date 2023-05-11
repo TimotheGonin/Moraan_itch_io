@@ -28,6 +28,29 @@
 	margin: 50px 0 55px;
 }
 
+.custom-licence-info__rules {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 0 25px;
+}
+
+.custom-licence-info__rules.custom-licence-info__rules--green {
+	background: #198754;
+	opacity: 0.8;
+}
+.custom-licence-info__rules.custom-licence-info__rules--red {
+	background: #dc3545;
+	opacity: 0.8;
+}
+
+.custom-licence-info__rules li {
+	list-style-type: none;
+}
+
 hr {
 	border: none;
 	border-top: 3px double #333;
@@ -39,6 +62,7 @@ hr {
 
 hr:after {
 	background: #fff;
+	border-radius: 50%;
 	content: "§";
 	padding: 0 4px;
 	position: relative;
