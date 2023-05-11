@@ -2,3 +2,13 @@
 	cursor: url(https://img.itch.zone/aW1nLzEyMTMyMjg4LnBuZw==/original/Nmz0vu.png),
 		auto;
 }
+
+.custom-list__items li {
+	margin: 0;
+	padding: 15px 0 15px 40px;
+	list-style: none;
+	background-image: url("https://img.itch.zone/aW1nLzEyMTM5MTQ2LnBuZw==/original/wyChG8.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
