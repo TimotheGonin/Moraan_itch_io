@@ -12,3 +12,7 @@
 	background-position: left center;
 	background-size: 30px;
 }
+
+.custom-animations-details__item p {
+	font-style: italic;
+}
