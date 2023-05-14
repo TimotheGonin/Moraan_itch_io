@@ -100,6 +100,10 @@
 	}
 }
 
+.custom-hr__container {
+	margin: 55px 0;
+}
+
 hr {
 	border: none;
 	border-top: 3px double #333;
@@ -112,10 +116,10 @@ hr {
 hr:after {
 	background: #fff;
 	border-radius: 50%;
-	content: "§";
+	/* content: "§"; */
 	padding: 0 4px;
 	position: relative;
-	top: -13px;
+	/* top: -13px; */
 }
 
 .custom-hr.custom-hr--chest:after {
