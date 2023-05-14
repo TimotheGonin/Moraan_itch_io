@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 15px 0 15px 40px;
 	list-style: none;
-	background-image: url("./assets/icons/shield-icon.png");
+	background-image: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/shield-icon.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 30px;
@@ -64,7 +64,7 @@
 }
 
 .custom-pack-cards__card {
-	position: relative; /* Définir une position relative pour le conteneur */
+	position: relative;
 	z-index: 0;
 }
 
@@ -119,18 +119,18 @@ hr:after {
 }
 
 .custom-hr.custom-hr--chest:after {
-	content: url("./assets/icons/chest-icon.png");
+	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/chest-icon.png");
 	top: calc(-46px / 2);
 }
 .custom-hr.custom-hr--heath:after {
-	content: url("./assets/icons/hearth-icon.png");
+	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/hearth-icon.png");
 	top: calc(-46px / 2);
 }
 .custom-hr.custom-hr--cauldron:after {
-	content: url("./assets/icons/cauldron-icon.png");
+	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/cauldron-icon.png");
 	top: calc(-56px / 2);
 }
 .custom-hr.custom-hr--parchment:after {
-	content: url("./assets/icons/parchment-icon.png");
+	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/parchment-icon.png");
 	top: calc(-46px / 2);
 }
