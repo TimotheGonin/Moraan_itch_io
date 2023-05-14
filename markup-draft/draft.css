@@ -1,0 +1,70 @@
+* {
+	cursor: url(https://img.itch.zone/aW1nLzEyMTMyMjg4LnBuZw==/original/Nmz0vu.png),
+		auto;
+}
+
+.custom-list__items li {
+	margin: 0;
+	padding: 15px 0 15px 40px;
+	list-style: none;
+	background-image: url("https://img.itch.zone/aW1nLzEyMTM5MTQ2LnBuZw==/original/wyChG8.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+
+.custom-animations-details__item p {
+	font-style: italic;
+}
+
+.custom-animations-details__info {
+	font-style: italic;
+}
+
+.custom-animations--tall {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin: 50px 0 55px;
+}
+
+.custom-licence-info__rules {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 0 25px;
+}
+
+.custom-licence-info__rules.custom-licence-info__rules--green {
+	background: #198754;
+	opacity: 0.8;
+}
+.custom-licence-info__rules.custom-licence-info__rules--red {
+	background: #dc3545;
+	opacity: 0.8;
+}
+
+.custom-licence-info__rules li {
+	list-style-type: none;
+}
+
+hr {
+	border: none;
+	border-top: 3px double #333;
+	color: #333;
+	overflow: visible;
+	text-align: center;
+	height: 5px;
+}
+
+hr:after {
+	background: #fff;
+	border-radius: 50%;
+	content: "§";
+	padding: 0 4px;
+	position: relative;
+	top: -13px;
+}
