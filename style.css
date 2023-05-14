@@ -137,3 +137,20 @@ hr:after {
 	position: relative;
 	top: -13px;
 }
+
+.custom-hr.custom-hr--chest:after {
+	content: url("./assets/icons/chest-icon.png");
+	top: calc(-46px / 2);
+}
+.custom-hr.custom-hr--heath:after {
+	content: url("./assets/icons/hearth-icon.png");
+	top: calc(-46px / 2);
+}
+.custom-hr.custom-hr--cauldron:after {
+	content: url("./assets/icons/cauldron-icon.png");
+	top: calc(-56px / 2);
+}
+.custom-hr.custom-hr--parchment:after {
+	content: url("./assets/icons/parchment-icon.png");
+	top: calc(-46px / 2);
+}
