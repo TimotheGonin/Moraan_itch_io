@@ -14,6 +14,12 @@
 	background-size: 30px;
 }
 
+.custom-animations-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .custom-animations-details__item p {
 	font-style: italic;
 }
