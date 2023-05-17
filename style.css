@@ -4,6 +4,11 @@
 		auto;
 }
 
+a.button.buy_btn {
+	cursor: url(https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/cursors/curseur_2.png),
+		auto;
+}
+
 .custom-list__items li {
 	margin: 0;
 	padding: 15px 0 15px 40px;
