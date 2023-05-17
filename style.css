@@ -168,3 +168,16 @@ hr:after {
 	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/parchment-icon.png");
 	top: calc(-46px / 2);
 }
+.custom-hr.custom-hr--developer:after {
+	content: "💻🧛‍♂️";
+	top: -13px;
+	padding: 10px;
+}
+
+.custom-developer__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: -40px;
+}
