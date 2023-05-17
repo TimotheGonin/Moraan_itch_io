@@ -4,6 +4,11 @@
 		auto;
 }
 
+a.button.buy_btn {
+	cursor: url(https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/cursors/curseur_2.png),
+		auto;
+}
+
 .custom-list__items li {
 	margin: 0;
 	padding: 15px 0 15px 40px;
@@ -12,6 +17,12 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 30px;
+}
+
+.custom-animations-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .custom-animations-details__item p {
@@ -28,11 +39,28 @@
 	border: 5px ridge #231207;
 }
 
+.custom-main-preview__item--medium {
+	margin: 20px 0;
+}
+
+.custom-main-preview {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .custom-animations--tall {
 	display: flex;
 	justify-content: center;
 	gap: 50px;
 	margin: 50px 0 55px;
+}
+
+.custom-pack-conclusion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0;
 }
 
 .custom-licence-info__rules {
@@ -139,4 +167,17 @@ hr:after {
 .custom-hr.custom-hr--parchment:after {
 	content: url("https://raw.githubusercontent.com/TimotheGonin/Moraan_itch_io/feature/homepage/assets/icons/parchment-icon.png");
 	top: calc(-46px / 2);
+}
+.custom-hr.custom-hr--developer:after {
+	content: "💻🧛‍♂️";
+	top: -13px;
+	padding: 10px;
+}
+
+.custom-developer__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: -40px;
 }
